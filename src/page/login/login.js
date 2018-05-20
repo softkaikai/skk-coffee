@@ -55,7 +55,7 @@ class Login extends Component {
                     <span className="color-blue">《skk-coffee协议》</span>
                 </p>
 
-                <div className="login__c m-t-60">
+                <div className="login__c m-t-60 p-b-40">
                     <span className="login__c-title">
                         合作伙伴
                     </span>
