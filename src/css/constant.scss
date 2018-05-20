@@ -1,0 +1,42 @@
+@import "mixin/mixin";
+@import "variable/variable";
+
+@include spaceMix(40);
+
+@include fontSize(50);
+
+@include borderMix(1);
+
+
+/*********text-align******************/
+.t-l {
+  text-align: left;
+}
+.t-r {
+  text-align: right;
+}
+.t-m {
+  text-align: center;
+}
+/*****float**********/
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.f-n {
+  float: none;
+}
+/********flex**************/
+.d-flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+/*********color***********/
+.color-blue {
+  color: $theme-blue;
+}
+

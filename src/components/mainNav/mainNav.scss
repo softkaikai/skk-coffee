@@ -1,0 +1,64 @@
+.mainNav {
+  display: flex;
+
+  width: 100%;
+  height: 100px;
+
+  &__item {
+    flex: 1;
+  }
+  &__item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+    .nav-icon {
+      width: 40px;
+      height: 40px;
+    }
+    .nav-icon1 {
+      background: url("../../asset/nav/home.png") no-repeat center;
+      background-size: cover;
+    }
+    .nav-icon1-active {
+      background: url("../../asset/nav/home-active.png") no-repeat center;
+      background-size: cover;
+    }
+    .nav-icon2 {
+      background: url("../../asset/nav/menu.png") no-repeat center;
+      background-size: cover;
+    }
+    .nav-icon2-active {
+      background: url("../../asset/nav/menu-active.png") no-repeat center;
+      background-size: cover;
+    }
+    .nav-icon3 {
+      background: url("../../asset/nav/order.png") no-repeat center;
+      background-size: cover;
+    }
+    .nav-icon3-active {
+      background: url("../../asset/nav/order-active.png") no-repeat center;
+      background-size: cover;
+    }
+    .nav-icon4 {
+      background: url("../../asset/nav/car.png") no-repeat center;
+      background-size: cover;
+    }
+    .nav-icon4-active {
+      background: url("../../asset/nav/car-active.png") no-repeat center;
+      background-size: cover;
+    }
+    .nav-icon5 {
+      background: url("../../asset/nav/my.png") no-repeat center;
+      background-size: cover;
+    }
+    .nav-icon6-active {
+      background: url("../../asset/nav/my-active.png") no-repeat center;
+      background-size: cover;
+    }
+  }
+  &__item-text {
+    text-align: center;
+  }
+}

@@ -1,0 +1,35 @@
+.bank1,
+.bank2,
+.bank3,
+.bank4,
+.bank5,
+.bank6 {
+  display: inline-block;
+
+  width: 128px;
+  height: 128px;
+}
+.bank1 {
+  background: url("../asset/bank/bank (1).png") no-repeat center;
+  background-size: 128px 128px;
+}
+.bank2 {
+  background: url("../asset/bank/bank (2).png") no-repeat center;
+  background-size: 128px 128px;
+}
+.bank3 {
+  background: url("../asset/bank/bank (3).png") no-repeat center;
+  background-size: 128px 128px;
+}
+.bank4 {
+  background: url("../asset/bank/bank (4).png") no-repeat center;
+  background-size: 128px 128px;
+}
+.bank5 {
+  background: url("../asset/bank/bank (5).png") no-repeat center;
+  background-size: 128px 128px;
+}
+.bank6 {
+  background: url("../asset/bank/bank (6).png") no-repeat center;
+  background-size: 128px 128px;
+}
