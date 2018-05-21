@@ -99,6 +99,7 @@ module.exports = {
             variable: path.resolve(__dirname, '../src/css/variable'),
             component: path.resolve(__dirname, '../src/components'),
             page: path.resolve(__dirname, '../src/page'),
+            asset: path.resolve(__dirname, '../src/asset'),
         }
     }
 };

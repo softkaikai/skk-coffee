@@ -10,7 +10,7 @@ class MainBox extends Component {
                 <div className="mainBox__top">
                     {this.props.children}
                 </div>
-                <MainNav name="kaikai" />
+                <MainNav />
             </div>
         )
     }

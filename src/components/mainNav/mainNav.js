@@ -11,7 +11,6 @@ class MainNav extends Component {
         this.props.history.push(router);
     }
     render () {
-        console.log(this.props);
         let navs = [
             {name: '首页', className: 'nav-icon', router: '/'},
             {name: '菜单', className: 'nav-icon', router: '/menu'},
