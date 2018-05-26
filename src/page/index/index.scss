@@ -5,4 +5,55 @@
 
     background: #0077dd;
   }
+  &__list {
+    display: flex;
+    height: 150px;
+  }
+  &__list-l {
+    flex: 1;
+  }
+  &__list-r {
+
+  }
+  &__icon_order {
+    display: inline-block;
+
+    width: 80px;
+    height: 80px;
+    background: url('../../asset/order.png') no-repeat center;
+    background-size: 80px 80px;
+  }
+  &__icon_person {
+    display: inline-block;
+
+    width: 80px;
+    height: 80px;
+    background: url('../../asset/person.png') no-repeat center;
+    background-size: 80px 80px;
+  }
+  &__icon_callback {
+    display: inline-block;
+
+    width: 80px;
+    height: 80px;
+    background: url('../../asset/callback.png') no-repeat center;
+    background-size: 80px 80px;
+  }
+  &__icon_poi {
+    display: inline-block;
+
+    width: 80px;
+    height: 80px;
+    background: url('../../asset/poi-icon.png') no-repeat center;
+    background-size: 80px 80px;
+  }
+  &__poi {
+    height: 150px;
+    border-radius: 10px;
+
+    background: url("../../asset/poi.png") no-repeat left top;
+    background-size: 100%;
+
+    overflow: hidden;
+  }
 }
