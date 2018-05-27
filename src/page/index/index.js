@@ -15,7 +15,7 @@ class Index extends Component {
     }
     render () {
         return (
-            <MainBox>
+            <MainBox {...this.props}>
                 <div>
                     <SwiperTouch slides={[slide1, slide2, slide3]} />
                     <div className="p-l-40 p-r-40">

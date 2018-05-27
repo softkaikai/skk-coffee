@@ -21,7 +21,7 @@ class MainNav extends Component {
         let navDoms = navs.map((val, index) => {
             let iconClassName = `${val.className} ${val.className+(index+1)}`;
             let textClassName = 'mainNav__item-text';
-            if (index === 0) {
+            if (val.router === this.props.match.path) {
                 textClassName += ' color-blue';
                 iconClassName += ` ${val.className+(index+1)}-active`;
             }

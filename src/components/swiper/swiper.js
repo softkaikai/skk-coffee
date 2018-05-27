@@ -11,6 +11,7 @@ class Swiper extends Component {
             isRunning: false,
             timer: null,
         };
+        this.timeOut = null;
         this.startMove = this.startMove.bind(this);
     }
     startMove () {
@@ -22,7 +23,7 @@ class Swiper extends Component {
         clearInterval(this.state.timer);
         let timer = setInterval(() => {
             if (this.state.isRunning) {
-                setTimeout(() => {
+                this.timeOut = setTimeout(() => {
                     this.setState({isRunning: false});
                 }, 1510);
                 return false;
@@ -32,7 +33,7 @@ class Swiper extends Component {
                 curImg = curImg >= slideLength ? 0 : curImg;
                 return {curImg, isRunning: true};
             });
-            setTimeout(() => {
+            this.timeOut = setTimeout(() => {
                 this.setState({isRunning: false});
             }, 1510);
         }, duration);
@@ -46,6 +47,7 @@ class Swiper extends Component {
     }
     componentWillUnmount () {
         clearInterval(this.state.timer);
+        clearTimeout(this.timeOut);
     }
     static getDerivedStateFromProps (nextProp, preState) {
         //if animation is running, prevent the state updating

@@ -1,0 +1,38 @@
+.coffee {
+  padding: 20px 0;
+  height: 200px;
+
+  &__content {
+    display: flex;
+    height: 100%;
+  }
+  &__img {
+    width: 150px;
+    height: 100%;
+
+    border: 1px solid #e0e0e0;
+
+    img {
+      width: 100%;
+    }
+  }
+  &__des {
+    width: 0;
+    position: relative;
+    flex: 1;
+  }
+
+  &__plus {
+    position: absolute;
+    bottom: -2px;
+    right: 15px;
+
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+
+    background: url("../../asset/plus.png") no-repeat center;
+    background-size: 42px 42px;
+  }
+
+}
